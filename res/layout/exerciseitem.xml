@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  >
+
+	<TextView
+		android:id="@+id/exerciseSetNrLabel"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:gravity="center|center_vertical"
+		android:text="Set-Nr. "
+		android:focusable="false"
+		/>
+		
+	<TextView
+		android:id="@+id/exerciseSetNr"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:gravity="center|center_vertical"
+		android:text="Name"
+		android:focusable="false"
+		/>
+
+	<quelltextfabrik.gymlog.control.WeightPicker
+		android:id="@+id/exerciseWeight"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:gravity="center|center_vertical"
+		>
+	</quelltextfabrik.gymlog.control.WeightPicker>
+	
+	<TextView
+		android:id="@+id/exerciseWeightUnit"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:gravity="center|center_vertical"
+		android:text="kg"
+		android:focusable="false"
+		/>
+		
+	<quelltextfabrik.gymlog.control.NumberPicker
+		android:id="@+id/exerciseReps"
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:gravity="center|center_vertical"
+		>
+	</quelltextfabrik.gymlog.control.NumberPicker>
+
+	<TextView
+		android:id="@+id/exerciseReps"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		android:gravity="center|center_vertical"
+		android:text="reps"
+		android:focusable="false"
+		/>  
+	
+	<!-- CONTROLS -->
+  	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="wrap_content"
+		android:layout_height="fill_parent"
+		>
+		<TextView
+			android:id="@+id/exerciseName"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center|center_vertical"
+			android:text="Exercise"
+			android:focusable="false"
+			/>
+			
+		<Button
+			android:id="@+id/exerciseSetDone"
+			android:text="@string/done"
+			android:layout_width="fill_parent"
+	  		android:layout_height="wrap_content"
+			android:gravity="center|center_vertical"
+			/>
+	  	
+	  	<LinearLayout
+			android:id="@+id/exerciseSetupControls"
+			android:orientation="vertical"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:visibility="gone"
+			>
+			<Button
+				android:id="@+id/exerciseSaveSet"
+				android:text="@string/saveChanges"
+				android:layout_width="wrap_content"
+		  		android:layout_height="fill_parent"
+				android:gravity="center|center_vertical"
+				/>	
+			<ImageView
+				android:id="@+id/exerciseDelete"
+				android:background="@drawable/delete"
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+		        android:layout_alignParentRight="true"
+		        android:layout_centerVertical="true"
+				android:focusable="true"
+				android:clickable="true"
+				/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>

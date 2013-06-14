@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+
+	
+	<LinearLayout
+	  xmlns:android="http://schemas.android.com/apk/res/android"
+	  android:orientation="horizontal"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  >
+		<quelltextfabrik.gymlog.control.WeightPicker
+			android:id="@+id/wholeWorkoutWeight"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center|center_vertical"
+			/>
+		
+		<TextView
+			android:id="@+id/wholeWorkoutWeightUnit"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:gravity="center|center_vertical"
+			android:text="kg"
+			android:focusable="false"
+			android:paddingRight="10dip"
+			/>
+			
+		<quelltextfabrik.gymlog.control.NumberPicker
+			android:id="@+id/wholeWorkoutReps"
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center|center_vertical"
+			/>
+	
+		<TextView
+			android:id="@+id/wholeWorkoutReps"
+			android:layout_width="wrap_content"
+			android:layout_height="fill_parent"
+			android:gravity="center|center_vertical"
+			android:text="reps"
+			android:focusable="false"
+			android:paddingRight="10dip"
+			/>
+	</LinearLayout>
+
+
+	<LinearLayout
+	  android:orientation="vertical"
+	  android:layout_width="wrap_content"
+	  android:layout_height="wrap_content"
+	  >
+		<TextView
+			android:id="@+id/wholeWorkoutExerciseName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center|center_vertical"
+			android:text="Exercise"
+			android:focusable="false"
+			android:paddingRight="10dip"/>
+		
+		<!-- 
+		<LinearLayout
+		  android:orientation="horizontal"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  >
+			<TextView
+				android:id="@+id/wholeWorkoutSetNrLabel"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center|center_vertical"
+				android:text="Set-Nr. "
+				android:focusable="false"
+				/>
+				
+			<TextView
+				android:id="@+id/wholeWorkoutSetNr"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center|center_vertical"
+				android:text="5"
+				android:focusable="false"
+				android:paddingRight="10dip"/>
+		</LinearLayout>
+		 -->
+	
+	  
+		<!-- *** CONTROLS ******************************************************************************************************* -->
+		<Button
+			android:id="@+id/wholeWorkoutDone"
+			android:text="@string/done"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center|center_vertical"
+			android:focusable="true"
+			android:clickable="true"
+			/>	
+		
+		<Button
+			android:id="@+id/wholeWorkoutSave"
+			android:text="@string/saveChanges"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center|center_vertical"
+			android:visibility="invisible"
+			/>
+			
+		<ImageView
+			android:id="@+id/wholeWorkoutDelete"
+			android:background="@drawable/delete"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:focusable="true"
+			android:visibility="invisible"
+			/>
+	</LinearLayout>
+  
+</LinearLayout>

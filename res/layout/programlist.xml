@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:scrollbars="vertical"
+	android:background="#666666"
+	>	
+		
+	<!-- Application title -->
+	<LinearLayout
+		android:id="@+id/buttonLayout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left|top"
+		android:background="#333333"
+		android:padding="10dp"
+		android:layout_alignParentTop="true"
+		>
+
+		<LinearLayout
+			android:id="@+id/buttonlayout2"
+			android:orientation="vertical"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			>
+			<TextView
+				android:id="@+id/workoutlistMode"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:text="I'm empty"
+				android:gravity="center_vertical"
+				/>
+		</LinearLayout>
+		
+		<LinearLayout
+			android:id="@+id/buttonlayout2"
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:layout_width="fill_parent"
+			android:layout_gravity="right|center_vertical"
+			>
+			<Button
+				android:text="@string/AddNewString"
+				android:id="@+id/workoutListAdd"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:visibility="invisible"/>
+		</LinearLayout>
+
+	</LinearLayout>
+	
+	<!-- List of workouts -->
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="70dip"
+		android:layout_marginBottom="70dip"
+		/>
+	<include layout="@layout/bottomcontrols" />
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF"
+	>
+	
+	<TextView
+        android:text="@string/BodyStatsLabelString"
+		android:id="@+id/BodyStatsLabel"
+		android:layout_height="wrap_content"
+		android:textColor="#000000"
+		android:textSize="10pt"
+		android:layout_width="wrap_content"
+		android:layout_gravity="center_horizontal"
+		/>
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>		
+		<TextView
+           	android:layout_column="1"
+			android:text="@string/HeightLabelString"
+			android:id="@+id/HeightLabel"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>
+		<EditText
+			android:id="@+id/HeightValue"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="176"
+			android:minEms="3"
+			/>	
+	</LinearLayout>
+	
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		>	
+		<TextView
+				android:text="13.03.1987"
+				android:id="@+id/BirthdateValue"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textColor="#000000"
+				android:textSize="6pt"
+				/>
+		<Button
+			android:layout_column="1"
+			android:id="@+id/SetupBirthdatePicker"
+			android:text="@string/ChooseBirthdate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			/>	
+	</LinearLayout>
+	
+	<Button
+		android:id="@+id/SetupSave"
+		android:text="@string/SaveString"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		/>	
+		
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_height="fill_parent"
+		android:layout_width="fill_parent"
+		android:gravity="bottom"
+		>		
+		<Button
+			android:layout_column="1"
+			android:id="@+id/SetupBack"
+			android:text="@string/back"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			/>
+		<Button
+			android:id="@+id/SetupDone"
+			android:text="@string/done"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			/>		
+	</LinearLayout>
+
+</LinearLayout>

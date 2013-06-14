@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Gymlog!</string>
+    <string name="app_name">Gymlog</string>
+	<string name="TrainButtonString">TRAIN!</string>
+	<string name="SetupButtonString">Setup</string>
+	<string name="settings">Settings</string>
+	<string name="AnalyzeButtonString">Analyze</string>
+	<string name="BenchmarkButtonString">Benchmark</string>
+	<string name="SaveString">Save</string>
+	<string name="SetupTrainingString">Setup training</string>
+	<string name="Ali">Suffer the pain of discipline or suffer the pain of regret!</string>
+	<string name="WeightLabelString">Weight</string>
+	<string name="HeightLabelString">Height:</string>
+	<string name="SetsLabelString">Sets</string>
+	<string name="RepetitionsLabelString">Reps</string>
+	<string name="ExerciseLabelString">Exercise</string>
+	<string name="back">Back</string>
+	<string name="skip">Skip</string>
+	<string name="continu">Continue</string>
+	<string name="empty">Empty</string>
+	<string name="done">Done</string>
+	<string name="save">Save</string>
+	<string name="notdone">Not Done</string>
+	<string name="BirthDateLabelString">Birth date:</string>
+	<string name="BodyFatLabelString">Bodyfat:</string>
+	<string name="BenchmarkLabelString"><u>Benchmark</u></string>
+	<string name="BodyStatsLabelString"><u>Bodystats</u></string>
+	
+	<string name="SquatLabelString">Squat</string>
+	<string name="BenchpressLabelString">Bench press</string>
+	<string name="InvertedRowsLabelString">Inverted rows</string>
+	<string name="PushupsLabelString">Push ups</string>
+	<string name="ReverseCrunchesLabelString">Reverse crunches</string>
+	
+	<string name="OverheadPressLabelString">Overhead press</string>
+	<string name="DeadliftLabelString">Deadlift</string>
+	<string name="PullupsLabelString">Pull-ups</string>
+	<string name="ProneBridgesLabelString">Prone bridges</string>
+	
+	<string name="SetupTrainingScheduleMoLabelString">Mo</string>
+	<string name="SetupTrainingScheduleTuLabelString">Tu</string>
+	<string name="SetupTrainingScheduleWeLabelString">We</string>
+	<string name="SetupTrainingScheduleThLabelString">Th</string>
+	<string name="SetupTrainingScheduleFrLabelString">Fr</string>
+	<string name="SetupTrainingScheduleSaLabelString">Sa</string>
+	<string name="SetupTrainingScheduleSuLabelString">Su</string>
+	
+	<string name="chooseProgramSchedule"><u>Your program to schedule</u></string>
+	<string name="trainingDays"><u>Your training days</u></string>
+	<string name="SetupTrainingScheduleAlternateString">Alternate available work outs on training days</string>
+	<string name="SetupTrainingScheduleFixedString">Specify days for each work out</string>
+	<string name="selectProgram">Select program</string>
+	
+	<string name="WorkoutAString">Workout A</string>
+	<string name="WorkoutBString">Workout B</string>
+	<string name="AddNewString">+ add new</string>
+	<string name="BenchmarkYourBodyLabelString">Your body</string>
+	<string name="BenchmarkYourIronLabelString">Your iron</string>
+	<string name="BenchmarkYourDateLabelString">Your date</string>
+	<string name="ChooseBirthdate">Choose birthdate</string>
+	<string name="DifferentDate">Choose different date</string>
+	<string name="saveChanges">Save Changes</string>
+	<string name="yourBody">Your Body</string>
+	<string name="yourPrograms">Your Programs</string>
+	<string name="yourSchedule">Your Schedule</string>
+	<string name="yourWorkouts">Your Workouts</string>
+	<string name="yourExercises">Your Exercises</string>
+</resources>

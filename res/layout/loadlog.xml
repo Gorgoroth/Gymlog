@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:scrollbars="vertical"
+	android:background="#666666"
+	>	
+		
+	<!-- Application title -->
+	<LinearLayout
+		android:id="@+id/exerciseListLayout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left|top|center_vertical"
+		android:background="#333333"
+		android:padding="10dp"
+		android:layout_alignParentTop="true"
+		>
+
+		<LinearLayout
+			android:id="@+id/exerciseLayout2"
+			android:orientation="vertical"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			>
+			<TextView
+				android:id="@+id/exerciseMode"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="I'm empty"
+				android:gravity="center_vertical|right"
+				android:textSize="10pt"
+				android:textStyle="bold"/>
+		
+		</LinearLayout>
+		
+		<LinearLayout
+			android:id="@+id/exerciseLayoutButton"
+			android:orientation="vertical"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			android:gravity="right"
+			android:layout_gravity="right|center_vertical"
+			>
+			<TextView
+				android:id="@+id/exerciseWorkoutname"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="I'm empty"
+				android:gravity="center_vertical"
+				/>
+			<TextView
+				android:id="@+id/exerciseName"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="I'm empty"
+				android:gravity="center_vertical"
+				/>
+		</LinearLayout>
+
+	</LinearLayout>
+	
+	<!-- List of sets -->
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="70dip"
+		android:layout_marginBottom="70dip"
+		/>
+	<include layout="@layout/bottomcontrols" />
+</RelativeLayout>

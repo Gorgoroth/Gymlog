@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 	<!-- Back and Continue buttons -->
+<LinearLayout 
+ 	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/ButtonFooter"
+    android:orientation="horizontal"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:gravity="left|bottom|center_vertical"
+	android:background="#333333"
+	android:padding="10dp"
+	android:layout_gravity="bottom"
+	android:layout_alignParentBottom="true"
+	>		
+	<Button
+		android:id="@+id/Back"
+		android:text="@string/back"
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" 
+		>
+	</Button>
+	<Button
+		android:id="@+id/Done"
+		android:text="@string/done"
+		android:layout_width="0dip"
+		android:layout_height="wrap_content"
+		android:layout_weight="1" 
+		>
+	</Button>		
+	
+</LinearLayout>

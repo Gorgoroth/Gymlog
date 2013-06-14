@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:scrollbars="vertical"
+	android:background="#666666"
+	>	
+		
+	<!-- Application title -->
+	<LinearLayout
+		android:id="@+id/buttonlayout"
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="left|top"
+		android:background="#333333"
+		android:padding="10dp"
+		>
+
+		<LinearLayout
+			android:id="@+id/buttonlayout2"
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			>
+			<TextView
+				android:id="@+id/txtTest"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:text="Add or modify workouts"
+				android:gravity="center_vertical"
+				/>
+		</LinearLayout>
+		
+		<LinearLayout
+			android:id="@+id/buttonlayout2"
+			android:orientation="horizontal"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:layout_width="fill_parent"
+			android:layout_gravity="right|center_vertical"
+			>
+			<Button
+				android:text="@string/AddNewString"
+				android:id="@+id/SetupWorkoutListAdd"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				/>
+		</LinearLayout>
+
+	</LinearLayout>
+	
+	<!-- List of workouts -->
+	<ListView
+		android:id="@android:id/list"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+	</ListView>
+	<!-- <Button
+		android:text="@string/WorkoutAString"
+		android:id="@+id/SetupWorkoutListWorkoutA"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+		
+	<Button
+		android:text="@string/WorkoutBString"
+		android:id="@+id/SetupWorkoutListWorkoutB"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/> -->
+	
+	
+	<!-- Back and Continue buttons -->
+	<LinearLayout 
+	    android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:gravity="bottom"
+		android:background="#333333"
+		android:padding="10dp"
+		android:layout_gravity="bottom" android:layout_height="fill_parent">		
+		<Button
+			android:id="@+id/SetupWorkoutListBack"
+			android:text="@string/back"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			>
+		</Button>
+		<Button
+			android:id="@+id/SetupWorkoutListDone"
+			android:text="@string/done"
+			android:layout_width="0dip"
+			android:layout_height="wrap_content"
+			android:layout_weight="1" 
+			>
+		</Button>		
+		
+	</LinearLayout>
+</LinearLayout>

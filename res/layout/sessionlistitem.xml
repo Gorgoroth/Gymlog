@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="horizontal"
+  android:layout_width="wrap_content"
+  android:layout_height="fill_parent">
+
+	<LinearLayout
+			android:id="@+id/sessionListRow"
+			android:layout_height="?android:attr/listPreferredItemHeight"
+			android:layout_width="fill_parent"
+			
+		    android:layout_alignParentLeft="true"
+		    
+			android:paddingLeft="10dip"
+			android:paddingRight="10dip"
+			
+			android:layout_marginRight="48dip"
+			android:gravity="center_vertical"
+			android:layout_centerVertical="true"
+		>
+		<TextView
+			android:id="@+id/sessionId"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="id"
+			android:focusable="false"
+			android:paddingRight="10dip"
+			/>
+		<TextView
+			android:id="@+id/sessionDate"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="01.01.1970"
+			android:focusable="false"
+			android:paddingRight="10dip"
+			/>
+		<TextView
+			android:id="@+id/sessionProgram"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Program"
+			android:focusable="false"
+			android:paddingRight="10dip"
+			/>
+		<TextView
+			android:id="@+id/sessionWorkout"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:text="Workout"
+			android:focusable="false"
+			android:paddingRight="10dip"
+			/>
+	</LinearLayout>
+	<ImageView
+		android:id="@+id/Delete"
+		android:background="@drawable/delete"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+		android:focusable="true"
+		/>
+  
+</RelativeLayout>

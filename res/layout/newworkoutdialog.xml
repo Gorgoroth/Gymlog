@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:id="@+id/newWorkoutDialogRoot"
+  >
+  
+	<EditText
+		android:text=""
+		android:id="@+id/newWorkoutName"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		/>
+	<RadioGroup
+		android:id="@+id/workoutType"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		>
+		<RadioButton
+			android:text="Normal"
+			android:id="@+id/newWorkoutSetbased"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:checked="true"/>
+		<RadioButton
+			android:text="Circle"
+			android:id="@+id/newWorkoutCircle"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			/>
+		<RadioButton
+			android:text="Simple List"
+			android:id="@+id/newWorkoutList"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			/>
+	</RadioGroup>
+
+
+</LinearLayout>
